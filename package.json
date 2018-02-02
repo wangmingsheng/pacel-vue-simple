@@ -4,8 +4,8 @@
   "description": "搭建一个基于parcel工具的vue脚手架",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html -p 8090 -d .tmp",
-    "build": "parcel build index.html -d public"
+    "dev": "parcel assets/index.html -p 8090 -d .tmp",
+    "build": "parcel build assets/index.html -d public"
   },
   "repository": {
     "type": "git",
